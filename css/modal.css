@@ -1,0 +1,91 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 999; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+*:focus::-webkit-input-placeholder { opacity: 0; } /* Chrome <=56, Safari < 10 */
+*:focus:-moz-placeholder { opacity: 0; } /* FF 4-18 */
+*:focus::-moz-placeholder { opacity: 0; } /* FF 19-50 */
+*:focus:-ms-input-placeholder { opacity: 0; } /* IE 10+ */
+*:focus::placeholder { opacity: 0; } /* Modern Browsers */
+
+/* The Close Button */
+.close {
+    padding-right: 11px;
+    padding-top: 6px;
+    color: white;
+    float: right;
+    font-size: 28px;
+    z-index: 999;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    padding-right: 11px;
+    padding-top: 6px;
+    color: white;
+    text-decoration: solid;
+    cursor: pointer;
+}
+.modal-content{
+    margin: auto;
+    width: 350px;
+    
+    box-shadow: 0 5px 15px rgba(0,0,0,.5)
+}
+.label-for-modal{
+    font-weight: 600;
+    padding: 25px 0px 5px;
+    color: cadetblue;
+}
+.input-for-modal{
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid grey !important;
+    border-radius: 0px !important;
+    padding: 0 !important;
+}
+.main-form{
+    padding: 0px 15px;
+}
+.submit-area {
+    padding-top: 35px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.submit-details{
+    padding: 10px 35px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background: cadetblue;
+}
+.submit-details:hover{
+    border: none;
+    padding: 10px 35px;
+    border-radius: 10px;
+    outline: none;
+    background: rgb(86, 143, 145);
+}
+.header{
+    background-color: cadetblue;
+    padding: 0;
+    margin: 0;
+}
+.error{
+    color: darkred;
+}
