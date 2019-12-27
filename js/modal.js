@@ -63,7 +63,6 @@ submit.onclick = function() {
             xhr.open('POST', 'https://backend.wiztute.com:8080/api/landing_query/', true);
             xhr.onload = function () {
                 // do something to response
-                console.log(this.responseText);
                 if(xhr.status === 200) {
                     if(localStorage.getItem('key') !== undefined && localStorage.getItem('value') !== undefined) {
                         if(localStorage.getItem('key')%2===1){
@@ -85,9 +84,6 @@ submit.onclick = function() {
                 }
             };
             xhr.send(data);
-            console.log("asdfasdfakjshfaskdfna sd",xhr.status)
-
-             
         }
     }
     updateMailString();
