@@ -11,6 +11,20 @@
     margin-top: 2%;
     font-size: 1.2vw; 
 }
+.gst-data{
+    font-size: 0.9vw;
+}
+@media screen and (max-width: 767px){
+    .topic-name{
+        font-size: 18px; 
+    }
+    #amount-value{
+        font-size: 20px; 
+    }
+    .gst-data{
+        font-size: 18px; 
+    }
+}
 .toggle-plus{
     margin-top: 1.3%;
     font-size: 1.8vw;
@@ -38,9 +52,7 @@
     font-family: sans-serif;
     margin-bottom: 0dp;
 }
-.gst-data{
-    font-size: 0.9vw;
-}
+
 .project-combined{
     margin-top: 20px;
     width: 100%;
