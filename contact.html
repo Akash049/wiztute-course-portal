@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162122026-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-162122026-1');
+        </script>
+
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,11 +40,48 @@
 		<![endif]-->
 
         <style>
-            .hide_display {
+             .hide_display {
                 display: none
             }
             .show_display {
                 display: block
+            }
+            .selection-header{
+                height: 20px;
+                width: 100%;
+                padding: 0px;
+                margin-bottom: 20px;
+            }
+            .dropdown-input{
+                height: 40px;
+                width: 100%;
+                border: 1px solid #EBEBEB;
+                border-radius:4px;
+                background: transparent;
+                padding-left: 15px;
+                padding-right: 15px;
+                margin-bottom: 15px;
+                -webkit-transition:0.2s border-color;
+                transition:0.2s border-color;
+            }
+            .dropdown-menu{
+                height: 120px;
+                width: 100%;
+                border: 1px solid #EBEBEB;
+                border-radius:4px;
+                background: transparent;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            .dropdown-item-new{
+                height: 100px;
+                width: 100%;
+                border: 1px solid #EBEBEB;
+                border-radius:4px;
+                background: transparent;
+                padding-left: 15px;
+                padding-right: 15px;
+                margin-bottom: 3px;
             }
         </style>
     </head>
@@ -115,6 +162,25 @@
                                     <input id="email" class="input" type="email" name="email" placeholder="Email">
                                     <input id="mobile" class="input" type="text" name="mobile" placeholder="Mobile Number">
                                     <input id="city" class="input" type="text" name="city" placeholder="City Name">
+                                    <div class="col-sm-12 selection-header">
+                                        Select the courses
+                                    </div>
+                                    <div class="row input">
+                                        <div class="col-sm-1">
+                                            <input id="android_check" type="checkbox" aria-label="Checkbox for following text input">
+                                        </div>
+                                        <div class="col-sm-11">
+                                            Android Application Development
+                                        </div>
+                                    </div>
+                                    <div class="row input">
+                                        <div class="col-sm-1">
+                                            <input id="python_check" type="checkbox" aria-label="Checkbox for following text input">
+                                        </div>
+                                        <div class="col-sm-11">
+                                            Data Science with Python
+                                        </div>
+                                    </div>
                                 </form>
                                 <button id="register-student" class="main-button icon-button pull-right show_display">Register</button>
                                 <i id="my_spinner"  class="fa fa-spinner fa-spin pull-right hide_display" style="font-size:40px"></i>
@@ -131,7 +197,7 @@
 						<h4>Contact Information</h4>
 						<ul class="contact-details">
 							<li><i class="fa fa-envelope"></i>info@wiztute.com</li>
-							<li><i class="fa fa-phone"></i>+91-7768944118</li>
+							<li><i class="fa fa-phone"></i><a href="tel:+91-7768944118">+91-7768944118 (Click to call) </a></li>
 							<li><i class="fa fa-map-marker"></i>New Delhi</li>
 						</ul>
 
@@ -216,7 +282,7 @@
 		<div id='preloader'><div class='preloader'></div></div>
 		<!-- /preloader -->
 
-
+        <script>!function(e,t,a){var c=e.head||e.getElementsByTagName("head")[0],n=e.createElement("script");n.async=!0,n.defer=!0, n.type="text/javascript",n.src=t+"/static/js/chat_widget.js?config="+JSON.stringify(a),c.appendChild(n)}(document,"https://app.engati.com",{bot_key:"45a11ba07ab94025",welcome_msg:true,branding_key:"default",server:"https://app.engati.com",e:"p" });</script>
 		<!-- jQuery Plugins -->
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>

@@ -3,7 +3,7 @@
 	
 	// Preloader
 	$(window).on('load', function() {
-		$("#preloader").delay(200).fadeOut();
+		$("#preloader").delay(50).fadeOut();
 	});
 
 	// Mobile Toggle Btn

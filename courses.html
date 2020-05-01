@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162122026-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-162122026-1');
+        </script>
+
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,6 +45,43 @@
             }
             .show_display {
                 display: block
+            }
+            .selection-header{
+                height: 20px;
+                width: 100%;
+                padding: 0px;
+                margin-bottom: 20px;
+            }
+            .dropdown-input{
+                height: 40px;
+                width: 100%;
+                border: 1px solid #EBEBEB;
+                border-radius:4px;
+                background: transparent;
+                padding-left: 15px;
+                padding-right: 15px;
+                margin-bottom: 15px;
+                -webkit-transition:0.2s border-color;
+                transition:0.2s border-color;
+            }
+            .dropdown-menu{
+                height: 120px;
+                width: 100%;
+                border: 1px solid #EBEBEB;
+                border-radius:4px;
+                background: transparent;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            .dropdown-item-new{
+                height: 100px;
+                width: 100%;
+                border: 1px solid #EBEBEB;
+                border-radius:4px;
+                background: transparent;
+                padding-left: 15px;
+                padding-right: 15px;
+                margin-bottom: 3px;
             }
         </style>
 
@@ -95,18 +142,35 @@
                     <!-- row -->
 					<div class="row">
                         
-						<div class="col-md-3 col-sm-6 col-xs-6">
+<!--
+                        <div class="col-md-3 col-sm-6 col-xs-6 offset-md-3">
+							
+						</div>
+-->
+                        
+						<div class="col-md-3 col-sm-6 col-xs-6 offset-md-3">
 							<div class="course">
 								<a href="android.html" class="course-img">
 									<img src="./img/course09.png" alt="">
                                     <i class="course-link-icon fa fa-link"></i>
 								</a>
 								<a class="course-title" href="#">Android Application Development</a>
-                                <div class="course-details">
-									<span class="course-category">29th March, 2020</span>
-								</div>
+                                 <span class="course-category android_details">
+                                     Android is a mobile operating system based on a modified version of the Linux kernel and other open source software, designed primarily for touchscreen mobile...
+                                 </span>
+                                 <div class="course-details">
+                                     <div class="row">
+                                         <div class="col-sm-6"> 
+                                             <button name="android" class="main-button icon-button pull-right show_display android_enroll">Enroll</button>
+                                         </div>
+                                         <div class="col-sm-6"> 
+                                             <button name="android" class="main-button icon-button pull-right show_display android_details">Detail</button>
+                                         </div>
+                                     </div>
+								 </div>
 							</div>
 						</div>
+<!--
                         <div class="col-md-3 col-sm-6 col-xs-6">
 							<div class="course">
 								<a href="react-framework.html" class="course-img">
@@ -119,6 +183,8 @@
 								</div>
 							</div>
 						</div>
+-->
+<!--
                         <div class="col-md-3 col-sm-6 col-xs-6">
 							<div class="course">
 								<a href="django-framework.html" class="course-img">
@@ -131,22 +197,36 @@
 								</div>
 							</div>
 						</div>
-                        
-                        
-						
+-->
                         <div class="col-md-3 col-sm-6 col-xs-6">
 							<div class="course">
 								<a href="python-ds.html" class="course-img">
 									<img src="./img/course05.png" alt="">
 									<i class="course-link-icon fa fa-link"></i>
 								</a>
-								<a class="course-title" href="#">Python for Data Science</a>
-								<div class="course-details">
-									<span class="course-category">29th March, 2020</span>
-								</div>
+								<a class="course-title" href="#">Data Science with Python</a>
+                                <span class="course-category python_details">
+                                     This introductory course in Python will take you from no coding background to analyzing any dataset using python code written from scratch. Once completed, you...
+                                 </span>
+                                <div class="course-details">
+                                     <div class="row">
+                                         <div class="col-sm-6"> 
+                                             <button class="main-button icon-button pull-right show_display python_enroll">Enroll</button>
+                                         </div>
+                                         <div class="col-sm-6"> 
+                                             <button name="android" class="main-button icon-button pull-right show_display python_details">Detail</button>
+                                         </div>
+                                     </div>
+								 </div>
 							</div>
 						</div>
+                        <div class="col-md-6 course-page-video">
+							<iframe class="iframe-style" width="100%" height="315"
+                            src="https://www.youtube.com/embed/WYwjthpLMiM">
+                            </iframe>
+						</div>
                     
+<!--
                         <div class="col-md-3 col-sm-6 col-xs-6">
 							<div class="course">
 								<a href="nlp-masterclass.html" class="course-img">
@@ -159,6 +239,8 @@
 								</div>
 							</div>
 						</div>
+-->
+<!--
                         <div class="col-md-3 col-sm-6 col-xs-6">
 							<div class="course">
 								<a href="ml-bootcamp.html" class="course-img">
@@ -171,6 +253,7 @@
 								</div>
 							</div>
 						</div>
+-->
                         
                       
 					</div>
@@ -185,7 +268,7 @@
 		</section>
         
 		<!-- Contact -->
-		<div id="contact" class="section">
+		<section id="contact" class="section">
 
 			<!-- container -->
 			<div class="container">
@@ -203,12 +286,31 @@
                                     <input id="email" class="input" type="email" name="email" placeholder="Email">
                                     <input id="mobile" class="input" type="text" name="mobile" placeholder="Mobile Number">
                                     <input id="city" class="input" type="text" name="city" placeholder="City Name">
+                                    <div class="col-sm-12 selection-header">
+                                        Select the courses
+                                    </div>
+                                    <div class="row input">
+                                        <div class="col-sm-1">
+                                            <input id="android_check" type="checkbox" aria-label="Checkbox for following text input">
+                                        </div>
+                                        <div class="col-sm-11">
+                                            Android Application Development
+                                        </div>
+                                    </div>
+                                    <div class="row input">
+                                        <div class="col-sm-1">
+                                            <input id="python_check" type="checkbox" aria-label="Checkbox for following text input">
+                                        </div>
+                                        <div class="col-sm-11">
+                                            Data Science with Python
+                                        </div>
+                                    </div>
                                 </form>
                                 <button id="register-student" class="main-button icon-button pull-right show_display">Register</button>
                                 <i id="my_spinner"  class="fa fa-spinner fa-spin pull-right hide_display" style="font-size:40px"></i>
 
                             </div>
-                           <div id="message_block" class="hide_display">Your details have been successfully registered. Our team will get back to you shortly.</div>
+                            <div id="message_block" class="hide_display">Your details have been successfully registered. Our team will get back to you shortly.</div>
                             <div id="error_block" class="hide_display">Could not be registered. Please try again</div>
 						</div>
 					</div>
@@ -219,7 +321,7 @@
 						<h4>Contact Information</h4>
 						<ul class="contact-details">
 							<li><i class="fa fa-envelope"></i>info@wiztute.com</li>
-							<li><i class="fa fa-phone"></i>+91-7768944118</li>
+							<li><i class="fa fa-phone"></i><a href="tel:+91-7768944118">+91-7768944118 (Click to call) </a></li>
 							<li><i class="fa fa-map-marker"></i>New Delhi</li>
 						</ul>
 
@@ -236,7 +338,7 @@
 			</div>
 			<!-- /container -->
 
-		</div>
+		</section>
 		<!-- /Contact -->
 
 		<!-- Footer -->
@@ -299,12 +401,10 @@
 
 		</footer>
 		<!-- /Footer -->
-
+        <script>!function(e,t,a){var c=e.head||e.getElementsByTagName("head")[0],n=e.createElement("script");n.async=!0,n.defer=!0, n.type="text/javascript",n.src=t+"/static/js/chat_widget.js?config="+JSON.stringify(a),c.appendChild(n)}(document,"https://app.engati.com",{bot_key:"45a11ba07ab94025",welcome_msg:true,branding_key:"default",server:"https://app.engati.com",e:"p" });</script>
 		<!-- preloader -->
 		<div id='preloader'><div class='preloader'></div></div>
 		<!-- /preloader -->
-
-
 		<!-- jQuery Plugins -->
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -312,6 +412,13 @@
 		<script type="text/javascript" src="js/google-map.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
         <script type="text/javascript" src="js/courses.js"></script>
-
+        <script>
+            $(".android_enroll").click(()=>{
+                window.location.assign("https://www.instamojo.com/@Wiztute_eLearning/lf437db0ad1a94c1a9c5474f732a3099e/");
+            })
+            $(".python_enroll").click(()=>{
+                window.location.assign("https://www.instamojo.com/@Wiztute_eLearning/l627f56c5829c4af0b7d9e5859f4a84b6/");
+            })
+        </script>
 	</body>
 </html>

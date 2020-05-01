@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162122026-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-162122026-1');
+        </script>
+
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -63,26 +73,66 @@
 		<!-- Hero-area -->
 		<div class="hero-area section">
 
+<!--
+
+-->
+
+            
 			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/description-page-bg.png)"></div>
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/description-page-bg.jpg)"></div>
 			<!-- /Backgound Image -->
 
 			<div class="container">
+                
 				<div class="row">
+                    
 					<div class="col-md-11 col-md-offset-1">
 						<ul class="hero-area-tree">
 							<li><a href="index.html">Home</a></li>
 							<li>Course curriculum</li>
 						</ul>
-						<h1 class="white-text">Android App Development</h1>
-                        <h4 class="white-text">Android is a mobile operating system based on a modified version of the Linux kernel and other open source software, designed primarily for touchscreen mobile devices such as smartphones and tablets. In this course you will learn to develop and publish an android app from scratch.</h4>
-                        <h4 class="white-text">Duration: 20 days</h4>
-                        <h4 class="white-text">Starting on: 29th March, 2020</h4>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
+                        <h1 class="white-text">Android App Development</h1>
+<!--
+                        <div class="row">
+                           <img src="./img/android_banner.jpeg" style="width: 100%; border: 2px solid #FFF;background: white;">
+                        </div>
+-->
+                        <div class="row">
+<!--
+                            <div class="col-sm-3">
+                                <img src="./img/course09.png" style="width: 250px; border: 2px solid #FFF;background: white;">
+                            </div>
+-->
+                            <div class="col-sm-12">
+                                <h4 style="text-align: left;word-spacing: 0.2em;line-height: 1.5em;font-weight: 100;" class="white-text">Online live lecture series for teaching Android application development using Java. The lectures to be conducted by industry professionals and experts with hands on mentorship in development. No prior Java knowledge is required.</h4>
+                            </div>
+                        </div>
+                        <h4 class="white-text"><i class="fa fa-calendar icon-check"></i>Duration: 30 hours</h4>
+                        <h4 class="white-text"><i class="fa fa-book icon-check"></i>Only 20 slots available</h4>
+                        <h4 class="white-text"><i class="fa fa-book icon-check"></i>Starting from 20th April, 2020</h4>
+                        <h4 class="white-text"><i class="fa fa-book icon-check"></i>For college students and working professionals</h4>
+                        <h4 class="white-text" style="margin-top: 100px;">Meet the instructor</h4>
+                        <div class="item">
+                           <div class="row" style="padding: 20px; color: white;">
+                            <div class="row">
+                            <div class="col-sm-2">
+                                <img src="img/akash.png" class="img-responsive rounded" style="width: 150px; border: 2px solid #FFF;background: white;">
+                                </div>
+                                <div class="col-sm-10">
+                                <h4 style="color: white;font-size: 20px;">Akash Chandra</h4>
+                                    <p class="testimonial_subtitle"><span>PGP ML & AI, University of Texas</span><br></p>
+                                    <p class="testimonial_subtitle"><span>B.Tech, IIT Kanpur</span><br></p>
+                                    <p class="testimonial_subtitle"><span>6+ years experience in Android, Full Stack Product Development and DevOps</span><br></p>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                            </div>
+                            </div>
+                          </div>
+                            
+                        </div>
 					</div>
 				</div>
 			</div>
@@ -239,8 +289,10 @@
 					<!-- contact information -->
 					<div class="col-md-3 col-md-offset-1">
                         <div class="payment-button">
-                             <div id="amount-value" >₹ 10,000</div>
-                             <div class="gst-data"><span class="discount-value">(33% off <span style="text-decoration: line-through">Rs. 15,000</span> )</span></div>
+                             <div class="payment-button">
+                             <div id="amount-value" >₹ 5,000</div>
+                             <div class="gst-data"><span class="discount-value">(<span style="font-size: 17px; text-decoration: line-through">Rs. 25,000</span> )</span></div>
+                        </div>
                         </div>
                         <div class="coupon-input-box">
                             <div class="col-sm-8">
@@ -252,6 +304,7 @@
                         </div>
 <!--                        <div id="apply-coupon-text" class="coupon">Apply coupon</div>-->
                         <div class="pay-button-full">
+                            <div style="text-align: center" class="gst-data"><span class="discount-value">(inclusive of 18% GST)</span></div>
                             <a href="https://www.instamojo.com/@Wiztute_eLearning/lf437db0ad1a94c1a9c5474f732a3099e/" rel="im-checkout">
                             </a>
                         </div>
@@ -348,8 +401,9 @@
 		<!-- preloader -->
 		<div id='preloader'><div class='preloader'></div></div>
 		<!-- /preloader -->
-
+        <script>!function(e,t,a){var c=e.head||e.getElementsByTagName("head")[0],n=e.createElement("script");n.async=!0,n.defer=!0, n.type="text/javascript",n.src=t+"/static/js/chat_widget.js?config="+JSON.stringify(a),c.appendChild(n)}(document,"https://app.engati.com",{bot_key:"45a11ba07ab94025",welcome_msg:true,branding_key:"default",server:"https://app.engati.com",e:"p" });</script>
 		<!-- jQuery Plugins -->
+        <script type="text/javascript" src="js/courses.js"></script>
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
