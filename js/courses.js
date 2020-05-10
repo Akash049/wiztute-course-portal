@@ -99,7 +99,6 @@ $(document).ready(() => {
                     city: city,
                 },
                 function (data, status) {
-                    console.log(data.status)
                     if (data.status == 1) {
                         $("#register-student").css("display", "block");
                         $("#my_spinner").css("display", "none");
