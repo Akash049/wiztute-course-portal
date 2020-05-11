@@ -1,107 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162122026-1"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
 
-          gtag('config', 'UA-162122026-1');
-        </script>
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162122026-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
 
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		gtag('config', 'UA-162122026-1');
+	</script>
 
-		<title>Wiztute</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-        <link rel="shortcut icon" type="image/ico" href="img/favicon.ico" />
-        
-		<!-- Google font -->
-		<link href="https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat:400,600" rel="stylesheet">
+	<title>Wiztute</title>
 
-		<!-- Bootstrap -->
-		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="shortcut icon" type="image/ico" href="img/favicon.ico" />
 
-		<!-- Font Awesome Icon -->
-		<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat:400,600" rel="stylesheet">
 
-		<!-- Custom stlylesheet -->
-		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
 
-		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
 		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
 
-        <style>
-             .hide_display {
-                display: none
-            }
-            .show_display {
-                display: block
-            }
-            .selection-header{
-                height: 20px;
-                width: 100%;
-                padding: 0px;
-                margin-bottom: 20px;
-            }
-            .dropdown-input{
-                height: 40px;
-                width: 100%;
-                border: 1px solid #EBEBEB;
-                border-radius:4px;
-                background: transparent;
-                padding-left: 15px;
-                padding-right: 15px;
-                margin-bottom: 15px;
-                -webkit-transition:0.2s border-color;
-                transition:0.2s border-color;
-            }
-            .dropdown-menu{
-                height: 120px;
-                width: 100%;
-                border: 1px solid #EBEBEB;
-                border-radius:4px;
-                background: transparent;
-                padding-left: 15px;
-                padding-right: 15px;
-            }
-            .dropdown-item-new{
-                height: 100px;
-                width: 100%;
-                border: 1px solid #EBEBEB;
-                border-radius:4px;
-                background: transparent;
-                padding-left: 15px;
-                padding-right: 15px;
-                margin-bottom: 3px;
-			}
-			.company-course {
-				margin-top:20px;
-				margin-bottom:20px;
-  				position: relative;
-			}
+	<style>
+		.hide_display {
+			display: none
+		}
 
-			.company-course .course-img {
-				position: relative;
-				display:block;
-				margin-bottom:20px;
-				border-radius:4px;
-				overflow:hidden;
-			}
+		.show_display {
+			display: block
+		}
 
-			.company-course .course-img > img {
-				width:100%;
-			}
+		.selection-header {
+			height: 20px;
+			width: 100%;
+			padding: 0px;
+			margin-bottom: 20px;
+		}
 
-			/* .company-course .course-img:after {
+		.dropdown-input {
+			height: 40px;
+			width: 100%;
+			border: 1px solid #EBEBEB;
+			border-radius: 4px;
+			background: transparent;
+			padding-left: 15px;
+			padding-right: 15px;
+			margin-bottom: 15px;
+			-webkit-transition: 0.2s border-color;
+			transition: 0.2s border-color;
+		}
+
+		.dropdown-menu {
+			height: 120px;
+			width: 100%;
+			border: 1px solid #EBEBEB;
+			border-radius: 4px;
+			background: transparent;
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+
+		.dropdown-item-new {
+			height: 100px;
+			width: 100%;
+			border: 1px solid #EBEBEB;
+			border-radius: 4px;
+			background: transparent;
+			padding-left: 15px;
+			padding-right: 15px;
+			margin-bottom: 3px;
+		}
+
+		.company-course {
+			margin-top: 20px;
+			margin-bottom: 20px;
+			position: relative;
+		}
+
+		.company-course .course-img {
+			position: relative;
+			display: block;
+			margin-bottom: 20px;
+			border-radius: 4px;
+			overflow: hidden;
+		}
+
+		.company-course .course-img>img {
+			width: 100%;
+		}
+
+		/* .company-course .course-img:after {
 				content:"";
 				position:absolute;
 				left:0;
@@ -117,126 +124,152 @@
 			.company-course .course-img:hover:after {
 				opacity:0.7;
 			} */
-			.company-course .course-img .image-overlay {
-				position: absolute;
-				bottom: 100%;
-				left: 0;
-				right: 0;
-				background-color: #FF670033;
-				overflow: hidden;
-				z-index: 3;
-				width: 100%;
-				border-radius:4px;
-				height:0;
-				transition: .5s ease-in-out;
-			}
-			.company-course .course-img:hover .image-overlay {
-				bottom: 0;
-				height: 100%;
-			}
-			.text {
-				color: white;
-				font-size: 14px;
-				position: absolute;
-				-webkit-transform: translate(-50%, -50%);
-				-ms-transform: translate(-50%, -50%);
-				transform: translate(-50%, -50%);
-				text-align: left;
-				letter-spacing: .3px;
-				top: 35%;
-				left: 50%;
-			}
-			.company-contact {
-				position:relative;
-				top: 85%;
-				padding-top: 2px;
-				border-top: 1px solid;
-				border-top-color: white ;
-				padding-right: 2px;
-				width: 100%;
-				text-align: right;
-				pointer-events: none;
-			}
-			.company-contact .join-us-text {
-				cursor: pointer;
-				color: white;
-				z-index: 9;
-				font-size: 16px;
-				font-weight: 600;
-				pointer-events: auto;
-				letter-spacing: .3px;
-				-webkit-transition:0.4s ease-out;
-				text-decoration: none;
-				transition:0.4s ease-out;
-				cursor: pointer;
-			}
-			.company-contact .join-us-text:hover {
-				color: black;
-				font-weight: normal;
-				letter-spacing: .4px;
-			}
-			.company-contact:hover{
-				border-top-color: black;
-			}
-			.join-us-text.icon-button:hover , .join-us-text.icon-button:focus {
-				padding-right: 35px;
-			}
-			.join-us-text.icon-button:after {
-				content:"\f178";
-				font-family:FontAwesome;
-				position:absolute;
-				width: 30px;
-				color: black;
-				right: 5px;
-				text-align:center;
-				opacity:0;
-				-webkit-transition:0.2s all;
-				transition:0.2s all;
-			}
-			.join-us-text.icon-button:hover:after , .join-us-texticon-button:focus:after {
-				opacity:1;
-			}
-        </style>
-    </head>
-	<body>
+		.company-course .course-img .image-overlay {
+			position: absolute;
+			bottom: 100%;
+			left: 0;
+			right: 0;
+			background-color: #FF670033;
+			overflow: hidden;
+			z-index: 3;
+			width: 100%;
+			border-radius: 4px;
+			height: 0;
+			transition: .5s ease-in-out;
+		}
 
-		<!-- Header -->
-		<header id="header">
-			<div class="container">
+		.company-course .course-img:hover .image-overlay {
+			bottom: 0;
+			height: 100%;
+		}
 
-				<div class="navbar-header">
-					<!-- Logo -->
-					<div class="navbar-brand">
-						<a class="logo" href="index.html">
-							<img src="./img/logo-alt.png" alt="logo">
-						</a>
-					</div>
-					<!-- /Logo -->
+		.text {
+			color: white;
+			font-size: 14px;
+			position: absolute;
+			-webkit-transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+			text-align: left;
+			letter-spacing: .3px;
+			top: 35%;
+			left: 50%;
+		}
 
-					<!-- Mobile toggle -->
-					<button class="navbar-toggle">
-						<span></span>
-					</button>
-					<!-- /Mobile toggle -->
+		.company-contact {
+			position: relative;
+			top: 85%;
+			padding-top: 2px;
+			border-top: 1px solid;
+			border-top-color: white;
+			padding-right: 2px;
+			width: 100%;
+			text-align: right;
+			pointer-events: none;
+		}
+
+		.company-contact .join-us-text {
+			cursor: pointer;
+			color: white;
+			z-index: 9;
+			font-size: 16px;
+			font-weight: 600;
+			pointer-events: auto;
+			letter-spacing: .3px;
+			-webkit-transition: 0.4s ease-out;
+			text-decoration: none;
+			transition: 0.4s ease-out;
+			cursor: pointer;
+		}
+
+		.company-contact .join-us-text:hover {
+			color: black;
+			font-weight: normal;
+			letter-spacing: .4px;
+		}
+
+		.company-contact:hover {
+			border-top-color: black;
+		}
+
+		.join-us-text.icon-button:hover,
+		.join-us-text.icon-button:focus {
+			padding-right: 35px;
+		}
+
+		.join-us-text.icon-button:after {
+			content: "\f178";
+			font-family: FontAwesome;
+			position: absolute;
+			width: 30px;
+			color: black;
+			right: 5px;
+			text-align: center;
+			opacity: 0;
+			-webkit-transition: 0.2s all;
+			transition: 0.2s all;
+		}
+
+		.join-us-text.icon-button:hover:after,
+		.join-us-texticon-button:focus:after {
+			opacity: 1;
+		}
+		.zoom {
+			transition: transform .2s; /* Animation */
+			margin: 0 auto;
+		}
+		.zoom:hover {
+			transform: scale(1.04); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+			opacity: 0.8;
+		}
+		@media screen and (max-width: 700px) {
+			.hide-mobile {
+				display: none;
+			}
+		}
+		
+	</style>
+</head>
+
+<body>
+
+	<!-- Header -->
+	<header id="header">
+		<div class="container">
+
+			<div class="navbar-header">
+				<!-- Logo -->
+				<div class="navbar-brand">
+					<a class="logo" href="index.html">
+						<img src="./img/logo-alt.png" alt="logo">
+					</a>
 				</div>
+				<!-- /Logo -->
 
-				<!-- Navigation -->
-				<nav id="nav">
-					<ul class="main-menu nav navbar-nav navbar-right">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="corporate-training.html">Corporate Training</a></li>
-                        <li><a href="courses.html">Courses</a></li>
-						<li><a href="contact.html">Contact Us</a></li>
-<!--                        <li><a href="https://student.wiztute.com/">Login</a></li>-->
-					</ul>
-				</nav>
-				<!-- /Navigation -->
-
+				<!-- Mobile toggle -->
+				<button class="navbar-toggle">
+					<span></span>
+				</button>
+				<!-- /Mobile toggle -->
 			</div>
-		</header>
-		<!-- /Header -->
 
-		<!-- Hero-area -->
+			<!-- Navigation -->
+			<nav id="nav">
+				<ul class="main-menu nav navbar-nav navbar-right">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="corporate-training.html">Corporate Training</a></li>
+					<li><a href="courses.html">Courses</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+					<!--                        <li><a href="https://student.wiztute.com/">Login</a></li>-->
+				</ul>
+			</nav>
+			<!-- /Navigation -->
+
+		</div>
+	</header>
+	<!-- /Header -->
+
+	<!-- Hero-area -->
 	<!--	<div class="hero-area section">
 
 			<!-- Backgound Image 
@@ -261,267 +294,298 @@
 		</div>
 	-->
 
-		<div id="home" class="hero-area">
+	<div id="home" class="hero-area">
 
-			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/home-background.jpg)"></div>
-			<!-- /Backgound Image -->
+		<!-- Backgound Image -->
+		<div class="bg-image bg-parallax overlay" style="background-image:url(./img/home-background.jpg)"></div>
+		<!-- /Backgound Image -->
 
-			<div class="home-wrapper">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6 front-page-header">
-							<h1 class="white-text">Design your Corporate Learning & Development (L&D) strategy</h1>
-							<p class="lead white-text">Learn Anytime, Anywhere.</p>
-							<!-- <a href="#data_field_block" class="main-button icon-button">Contact Us</a> -->
-						</div>
-                        <div class="col-md-6 front-page-video">
-							<iframe class="iframe-style" width="100%" height="315"
-                            	src="https://www.youtube.com/embed/MMdNixEiuho">
-                            </iframe>
-						</div> 
+		<div class="home-wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 front-page-header">
+						<h1 class="white-text">Design your Corporate Learning & Development (L&D) strategy</h1>
+						<p class="lead white-text hide-mobile">Learn Anytime, Anywhere.</p>
+						<!-- <a href="#data_field_block" class="main-button icon-button">Contact Us</a> -->
+					</div>
+					<div class="col-md-6 front-page-video">
+						<iframe class="iframe-style" width="100%" height="315"
+							src="https://www.youtube.com/embed/MMdNixEiuho">
+						</iframe>
 					</div>
 				</div>
 			</div>
-
 		</div>
-		<!-- /Hero-area -->
 
-		<!-- Contact -->
-		<div id="contact" class="section">
+	</div>
+	<!-- /Hero-area -->
 
-			<!-- container -->
-			<div class="container">
-
-				<div class="row">
-					<div class="section-header text-center">
-						<h2>Explore Courses</h2>
-						<p class="lead">Specifically designed to prepare you for recruitments.</p>
-					</div>
+	<div id="technologies" class="section-empty text-center">
+		<div class="container content">
+			<h1 class="text-color">Our Stacks And Libraries</h1>
+			<p>This will keep getting updated as newer technologies keep coming.</p>
+			<hr class="space">
+			<div class="row">
+				<div class="col-md-2">
+					<img class="zoom" src="./img/java.png" alt="" style="max-width: 100%;">
+					<hr class="space xs">
+					<h4 class="text-xs text-normal">Java</h4>
 				</div>
-				<!-- /row -->
-
-				<!-- /courses -->
-				<div id="courses-wrapper">
-                    
-                    <!-- row -->
-					<div class="row">
-                        
-                       	<div class="col-md-3 col-sm-6 col-xs-6">
-							<div class="company-course">
-								<!-- <a href="android.html" class="course-img"> -->
-								<div class="course-img">
-									<img src="./img/mobile.png" alt="">
-									
-									<div class="image-overlay">
-										<span class="text">
-										</span>
-										<div class="company-contact">
-											<a href="#data_field_block" class="join-us-text icon-button">Contact Us</a>
-										</div>
-											
-									</div>
-                                    <!-- <i class="course-link-icon fa fa-link"></i> -->
-								</div>
-								<a class="course-title" href="#">Mobile Application</a>
-<!--
-                                <div class="course-details">
-									<span class="course-category">29rd March, 2020</span>
-								</div>
--->
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-6">
-							<div class="company-course">
-								<!-- <a href="android.html" class="course-img"> -->
-								<div class="course-img">
-									<img src="./img/front-end.png" alt="">
-									
-									<div class="image-overlay">
-										<span class="text">
-										</span>
-										<div class="company-contact">
-											<a href="#data_field_block" class="join-us-text icon-button">Contact Us</a>
-										</div>
-											
-									</div>
-                                    <!-- <i class="course-link-icon fa fa-link"></i> -->
-								</div>
-								<a class="course-title" href="#">Frontend Development</a>
-<!--
-                                <div class="course-details">
-									<span class="course-category">29rd March, 2020</span>
-								</div>
--->
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-6">
-							<div class="company-course">
-								<!-- <a href="android.html" class="course-img"> -->
-								<div class="course-img">
-									<img src="./img/backend.png" alt="">
-									
-									<div class="image-overlay">
-										<span class="text">
-										</span>
-										<div class="company-contact">
-											<a href="#data_field_block" class="join-us-text icon-button">Contact Us</a>
-										</div>
-											
-									</div>
-                                    <!-- <i class="course-link-icon fa fa-link"></i> -->
-								</div>
-								<a class="course-title" href="#">Backend Development</a>
-<!--
-                                <div class="course-details">
-									<span class="course-category">29rd March, 2020</span>
-								</div>
--->
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-6">
-							<div class="company-course">
-								<!-- <a href="android.html" class="course-img"> -->
-								<div class="course-img">
-									<img src="./img/data-science.png" alt="">
-									
-									<div class="image-overlay">
-										<span class="text">
-										</span>
-										<div class="company-contact">
-											<a href="#data_field_block" class="join-us-text icon-button">Contact Us</a>
-										</div>
-											
-									</div>
-                                    <!-- <i class="course-link-icon fa fa-link"></i> -->
-								</div>
-								<a class="course-title" href="#">Data Science</a>
-<!--
-                                <div class="course-details">
-									<span class="course-category">29rd March, 2020</span>
-								</div>
--->
-							</div>
-						</div>
-					</div>
-					<!-- /row -->
-
+				<div class="col-md-2">
+					<img class="zoom" src="./img/python.png" alt="" style="max-width: 100%;">
+					<hr class="space xs">
+					<h4 class="text-xs text-normal">Python</h4>
 				</div>
-				<!-- /courses -->
-				
-				<div class="row">
-					<div class="section-header text-center" style="margin-top: 40px;">
-						<h2>Our Partners</h2>
-					</div>
+				<div class="col-md-2">
+					<img class="zoom" src="./img/js.png" alt="" style="max-width: 100%;">
+					<hr class="space xs">
+					<h4 class="text-xs text-normal">JavaScript</h4>
+				</div>
+				<div class="col-md-2">
+					<img class="zoom" src="./img/react.png" alt="" style="max-width: 100%;">
+					<hr class="space xs">
+					<h4 class="text-xs text-normal">ReactJS</h4>
+				</div>
+				<div class="col-md-2">
+					<img class="zoom" src="./img/android-logo.png" alt="" style="max-width: 100%;">
+					<hr class="space xs">
+					<h4 class="text-xs text-normal">Android</h4>
+				</div>
+				<div class="col-md-2">
+					<img class="zoom" src="./img/swift-logo.png" alt="" style="max-width: 100%;">
+					<hr class="space xs">
+					<h4 class="text-xs text-normal">Swift</h4>
+				</div>
+			</div>
+			<hr class="space m">
+			<div class="row">
+				<div class="col-md-2">
+					<img class="zoom" src="./img/nodejs.png" alt="" style="max-width: 100%;">
+					<hr class="space xs">
+					<h4 class="text-xs text-normal">NodeJS</h4>
+				</div>
+				<div class="col-md-2">
+					<img class="zoom" src="./img/spring.png" alt="" style="max-width: 100%;">
+					<hr class="space xs">
+					<h4 class="text-xs text-normal">Spring-Boot</h4>
+				</div>
+				<div class="col-md-2">
+					<img class="zoom" src="./img/django-logo.png" alt="" style="max-width: 100%;">
+					<hr class="space xs">
+					<h4 class="text-xs text-normal">Django</h4>
+				</div>
+				<div class="col-md-2">
+					<img class="zoom" src="./img/sql.png" alt="" style="max-width: 100%;">
+					<hr class="space xs">
+					<h4 class="text-xs text-normal">SQL</h4>
+				</div>
+				<div class="col-md-2">
+					<img class="zoom" src="./img/mongo.png" alt="" style="max-width: 100%;">
+					<hr class="space xs">
+					<h4 class="text-xs text-normal">MongoDB</h4>
+				</div>
+				<div class="col-md-2">
+					<img class="zoom" src="./img/keras.png" alt="" style="max-width: 100%;">
+					<hr class="space xs">
+					<h4 class="text-xs text-normal">Keras</h4>
+				</div>
+			</div>
+			<hr class="space m">
+			<div class="row">
+				<div class="col-md-2">
+					<img class="zoom" src="./img/tf.png" alt="" style="max-width: 100%;">
+					<hr class="space xs">
+					<h4 class="text-xs text-normal">TensorFlow</h4>
+				</div>
+				<div class="col-md-2">
+					<img class="zoom" src="./img/gcp.png" alt="" style="max-width: 100%;">
+					<hr class="space xs">
+					<h4 class="text-xs text-normal">Google Cloud Platform</h4>
+				</div>
+				<div class="col-md-2">
+					<img class="zoom" src="./img/aws.png" alt="" style="max-width: 100%;">
+					<hr class="space xs">
+					<h4 class="text-xs text-normal">AWS</h4>
+				</div>
+				<div class="col-md-2">
+					<img class="zoom" src="./img/solidity.png" alt="" style="max-width: 100%;">
+					<hr class="space xs">
+					<h4 class="text-xs text-normal">Solidity</h4>
+				</div>
+				<div class="col-md-2">
+					<img class="zoom" src="./img/aurdino.png" alt="" style="max-width: 100%;">
+					<hr class="space xs">
+					<h4 class="text-xs text-normal">Aurdino</h4>
+				</div>
+				<div class="col-md-2">
+					<img class="zoom" src="./img/raspi.png" alt="" style="max-width: 100%;">
+					<hr class="space xs">
+					<h4 class="text-xs text-normal">Raspberry Pi</h4>
+				</div>
+			</div>
+			<hr class="space m">
+			<div class="row">
+				<div class="col-md-2">
+					<img class="zoom" src="./img/dart.png" alt="" style="max-width: 100%;">
+					<hr class="space xs">
+					<h4 class="text-xs text-normal">Dart</h4>
+				</div>
+				<div class="col-md-2">
+					<img class="zoom" src="./img/react.png" alt="" style="max-width: 100%;">
+					<hr class="space xs">
+					<h4 class="text-xs text-normal">React Native</h4>
+				</div>
+				<div class="col-md-2">
+					<img class="zoom" src="./img/flutter.png" alt="" style="max-width: 100%;">
+					<hr class="space xs">
+					<h4 class="text-xs text-normal">Flutter</h4>
+				</div>
+				<div class="col-md-2">
+					<img class="zoom" src="./img/python.png" alt="" style="max-width: 100%;">
+					<hr class="space xs">
+					<h4 class="text-xs text-normal">NLTK</h4>
+				</div>
+				<div class="col-md-2">
+					<img class="zoom" src="./img/spacy.png" alt="" style="max-width: 100%;">
+					<hr class="space xs">
+					<h4 class="text-xs text-normal">Spacy</h4>
+				</div>
+				<div class="col-md-2">
+					<img class="zoom" src="./img/d3js.png" alt="" style="max-width: 100%;">
+					<hr class="space xs">
+					<h4 class="text-xs text-normal">D3.js</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Contact -->
+
+	<div id="contact" class="section">
+		<!-- container -->
+		<div class="container">
+
+			<!-- /courses -->
+
+			<div class="row">
+				<div class="section-header text-center" style="margin-top: 40px;">
+					<h2>Our Partners</h2>
+				</div>
 
 				<div class="row" style="height: 140px;">
 
 					<div class="col-sm-6 col-sm-offset-3">
-                        
-                        <div class="seprator"></div>
-                            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                             
-                              <div class="carousel-inner">
-                                <div class="item active">
-                                  <div class="row" style="padding: 20px">
-                                    <div class="row">
-										<div class="col-sm-6 col-sm-offset-3">
-											<img src="img/v-connect.png" class="col-xs-12" style="height: 100px; width: 150px; margin-left: 20%;">
+
+						<div class="seprator"></div>
+						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+							<div class="carousel-inner">
+								<div class="item active">
+									<div class="row" style="padding: 20px">
+										<div class="row">
+											<div class="col-sm-6 col-sm-offset-3">
+												<img src="img/v-connect.png" class="col-xs-12"
+													style="height: 100px; width: 150px; margin-left: 20%;">
 											</div>
 											<div class="col-xs-12" style="width: 100%; text-align: center;">
-											<h4>VConnect System & Services Pvt Limited</h4>
-											<p class="testimonial_subtitle"><br>
+												<h4>VConnect System & Services Pvt Limited</h4>
+												<p class="testimonial_subtitle"><br>
 
-											</p>
+												</p>
+											</div>
 										</div>
-                                    </div>
-                                  </div>
+									</div>
 								</div>
 								<div class="item">
 									<div class="row" style="padding: 20px">
-									  <div class="row">
-										  <div class="col-sm-6 col-sm-offset-3">
-											  <img src="img/ifmis.png" class="col-xs-12" style="height: 100px; width: 150px; margin-left: 20%;">
-											  </div>
-											  <div class="col-xs-12" style="width: 100%; text-align: center;">
-											  <h4>Integrated Financial Management Information System</h4>
-											  <p class="testimonial_subtitle"><br>
-  
-											  </p>
-										  </div>
-									  </div>
-									</div>
-								  </div>
-								  <div class="item">
-									<div class="row" style="padding: 20px">
-									  <div class="row">
-										  <div class="col-sm-6 col-sm-offset-3">
-											  <img src="img/jiffy.png" class="col-xs-12" style="height: 100px; width: 150px; margin-left: 20%;">
-											  </div>
-											  <div class="col-xs-12" style="width: 100%; text-align: center;">
-											  <h4>Jiffy Software Solutions</h4>
-											  <p class="testimonial_subtitle"><br>
-  
-											  </p>
-										  </div>
-									  </div>
-									</div>
-								  </div>
-								  <div class="item">
-									<div class="row" style="padding: 20px">
-									  <div class="row">
-										  <div class="col-sm-6 col-sm-offset-3">
-											  <img src="img/kidspreneur.png" class="col-xs-12" style="height: 100px; width: 150px; margin-left: 20%;">
-											  </div>
-											  <div class="col-xs-12" style="width: 100%; text-align: center;">
-											  <h4>Kidspreneur</h4>
-											  <p class="testimonial_subtitle"><br>
-  
-											  </p>
-										  </div>
-									  </div>
-									</div>
-								  </div>
-								  <div class="item">
-									<div class="row" style="padding: 20px">
-									  <div class="row">
-										  <div class="col-sm-6 col-sm-offset-3">
-											  <img src="img/eqsolution.png" class="col-xs-12" style="height: 100px; width: 150px; margin-left: 20%;">
-											  </div>
-											  <div class="col-xs-12" style="width: 100%; text-align: center;">
-											  <h4>EQ Sense Solutions</h4>
-											  <p class="testimonial_subtitle"><br>
-  
-											  </p>
-										  </div>
-									  </div>
-									</div>
-								  </div>
-                               <div class="item">
-                                   <div class="row" style="padding: 20px">
-                                    <div class="row">
-                                    <div class="col-sm-6 col-sm-offset-3">
-                                        <img src="img/crisil.png" class="col-xs-12" style="height: 100px; width: 150px; margin-left: 20%;">
-                                        </div>
-                                        <div class="col-xs-12" style="width: 100%; text-align: center;">
-                                        <h4><strong>CRISIL</strong></h4>
-                                        <p class="testimonial_subtitle"><br>
+										<div class="row">
+											<div class="col-sm-6 col-sm-offset-3">
+												<img src="img/ifmis.png" class="col-xs-12"
+													style="height: 100px; width: 150px; margin-left: 20%;">
+											</div>
+											<div class="col-xs-12" style="width: 100%; text-align: center;">
+												<h4>Integrated Financial Management Information System</h4>
+												<p class="testimonial_subtitle"><br>
 
-                                        </p>
-                                    </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="controls testimonial_control pull-right">
-                                <a class="left fa fa-chevron-left btn btn-default testimonial_btn" href="#carousel-example-generic"
-                                  data-slide="prev"></a>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="row" style="padding: 20px">
+										<div class="row">
+											<div class="col-sm-6 col-sm-offset-3">
+												<img src="img/jiffy.png" class="col-xs-12"
+													style="height: 100px; width: 150px; margin-left: 20%;">
+											</div>
+											<div class="col-xs-12" style="width: 100%; text-align: center;">
+												<h4>Jiffy Software Solutions</h4>
+												<p class="testimonial_subtitle"><br>
 
-                                <a class="right fa fa-chevron-right btn btn-default testimonial_btn" href="#carousel-example-generic"
-                                  data-slide="next"></a>
-                            </div>
-                        </div>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="row" style="padding: 20px">
+										<div class="row">
+											<div class="col-sm-6 col-sm-offset-3">
+												<img src="img/kidspreneur.png" class="col-xs-12"
+													style="height: 100px; width: 150px; margin-left: 20%;">
+											</div>
+											<div class="col-xs-12" style="width: 100%; text-align: center;">
+												<h4>Kidspreneur</h4>
+												<p class="testimonial_subtitle"><br>
+
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="row" style="padding: 20px">
+										<div class="row">
+											<div class="col-sm-6 col-sm-offset-3">
+												<img src="img/eqsolution.png" class="col-xs-12"
+													style="height: 100px; width: 150px; margin-left: 20%;">
+											</div>
+											<div class="col-xs-12" style="width: 100%; text-align: center;">
+												<h4>EQ Sense Solutions</h4>
+												<p class="testimonial_subtitle"><br>
+
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="row" style="padding: 20px">
+										<div class="row">
+											<div class="col-sm-6 col-sm-offset-3">
+												<img src="img/crisil.png" class="col-xs-12"
+													style="height: 100px; width: 150px; margin-left: 20%;">
+											</div>
+											<div class="col-xs-12" style="width: 100%; text-align: center;">
+												<h4><strong>CRISIL</strong></h4>
+												<p class="testimonial_subtitle"><br>
+
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="controls testimonial_control pull-right">
+							<a class="left fa fa-chevron-left btn btn-default testimonial_btn"
+								href="#carousel-example-generic" data-slide="prev"></a>
+
+							<a class="right fa fa-chevron-right btn btn-default testimonial_btn"
+								href="#carousel-example-generic" data-slide="next"></a>
+						</div>
+					</div>
 
 				</div>
 
@@ -529,17 +593,18 @@
 				<!-- row -->
 				<div class="row" style="margin-top: 50px;">
 
-										<!-- contact form -->
+					<!-- contact form -->
 					<div class="col-md-6">
 						<div class="contact-form">
 							<h4>Contact Us</h4>
-                            <div id="data_field_block" class="show_display">
-                                <form>
-                                    <input id="name" class="input" type="text" name="name" placeholder="Name">
-                                    <input id="email" class="input" type="email" name="email" placeholder="Email">
-                                    <input id="mobile" class="input" type="text" name="mobile" placeholder="Mobile Number">
-                                    <input id="city" class="input" type="text" name="city" placeholder="City Name">
-                                    <!-- <div class="col-sm-12 selection-header">
+							<div id="data_field_block" class="show_display">
+								<form>
+									<input id="name" class="input" type="text" name="name" placeholder="Name">
+									<input id="email" class="input" type="email" name="email" placeholder="Email">
+									<input id="mobile" class="input" type="text" name="mobile"
+										placeholder="Mobile Number">
+									<input id="city" class="input" type="text" name="city" placeholder="City Name">
+									<!-- <div class="col-sm-12 selection-header">
                                         Select the courses
                                     </div>
                                     <div class="row input">
@@ -558,13 +623,16 @@
                                             Data Science with Python
                                         </div>
                                     </div> -->
-                                </form>
-                                <button id="register-company" class="main-button icon-button pull-right show_display">Contact Us</button>
-                                <i id="my_spinner"  class="fa fa-spinner fa-spin pull-right hide_display" style="font-size:40px"></i>
+								</form>
+								<button id="register-company"
+									class="main-button icon-button pull-right show_display">Contact Us</button>
+								<i id="my_spinner" class="fa fa-spinner fa-spin pull-right hide_display"
+									style="font-size:40px"></i>
 
-                            </div>
-                           <div id="message_block" class="hide_display">Your details have been successfully registered. Our team will get back to you shortly.</div>
-                            <div id="error_block" class="hide_display">Could not be registered. Please try again</div>
+							</div>
+							<div id="message_block" class="hide_display">Your details have been successfully registered.
+								Our team will get back to you shortly.</div>
+							<div id="error_block" class="hide_display">Could not be registered. Please try again</div>
 						</div>
 					</div>
 					<!-- /contact form -->
@@ -574,12 +642,13 @@
 						<h4>Contact Information</h4>
 						<ul class="contact-details">
 							<li><i class="fa fa-envelope"></i>info@wiztute.com</li>
-							<li><i class="fa fa-phone"></i><a href="tel:+91-7768944118">+91-7768944118 (Click to call) </a></li>
+							<li><i class="fa fa-phone"></i><a href="tel:+91-7768944118">+91-7768944118 (Click to call)
+								</a></li>
 							<li><i class="fa fa-map-marker"></i>New Delhi</li>
 						</ul>
 
 						<!-- contact map -->
-<!--						<div id="contact-map"></div>-->
+						<!--						<div id="contact-map"></div>-->
 						<!-- /contact map -->
 
 					</div>
@@ -631,9 +700,13 @@
 					<!-- social -->
 					<div class="col-md-4 col-md-push-8">
 						<ul class="footer-social">
-							<li><a target="_blank" class="facebook" href="https://www.facebook.com/MakeIndiaLearnMore/"><i class="fa fa-facebook"></i></a></li>
-                            <li><a target="_blank" class="google-plus" href="https://wiztute.com/"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a target="_blank" class="linkedin" href="https://www.linkedin.com/company/wiztute/"><i class="fa fa-linkedin"></i></a></li>
+							<li><a target="_blank" class="facebook"
+									href="https://www.facebook.com/MakeIndiaLearnMore/"><i
+										class="fa fa-facebook"></i></a></li>
+							<li><a target="_blank" class="google-plus" href="https://wiztute.com/"><i
+										class="fa fa-google-plus"></i></a></li>
+							<li><a target="_blank" class="linkedin" href="https://www.linkedin.com/company/wiztute/"><i
+										class="fa fa-linkedin"></i></a></li>
 						</ul>
 					</div>
 					<!-- /social -->
@@ -656,17 +729,20 @@
 		<!-- /Footer -->
 
 		<!-- preloader -->
-		<div id='preloader'><div class='preloader'></div></div>
+		<div id='preloader'>
+			<div class='preloader'></div>
+		</div>
 		<!-- /preloader -->
 
-        <script>!function(e,t,a){var c=e.head||e.getElementsByTagName("head")[0],n=e.createElement("script");n.async=!0,n.defer=!0, n.type="text/javascript",n.src=t+"/static/js/chat_widget.js?config="+JSON.stringify(a),c.appendChild(n)}(document,"https://app.engati.com",{bot_key:"45a11ba07ab94025",welcome_msg:true,branding_key:"default",server:"https://app.engati.com",e:"p" });</script>
+		<script>!function (e, t, a) { var c = e.head || e.getElementsByTagName("head")[0], n = e.createElement("script"); n.async = !0, n.defer = !0, n.type = "text/javascript", n.src = t + "/static/js/chat_widget.js?config=" + JSON.stringify(a), c.appendChild(n) }(document, "https://app.engati.com", { bot_key: "45a11ba07ab94025", welcome_msg: true, branding_key: "default", server: "https://app.engati.com", e: "p" });</script>
 		<!-- jQuery Plugins -->
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 		<script type="text/javascript" src="js/google-map.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
-        <script type="text/javascript" src="js/courses.js"></script>
+		<script type="text/javascript" src="js/courses.js"></script>
 
 	</body>
+
 </html>
