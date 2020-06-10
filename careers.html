@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Wiztute</title>
+
+    <link rel="shortcut icon" type="image/ico" href="img/favicon.ico" />
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat:400,600" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Custom stlylesheet -->
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    <style>
+        #careers-header.hero-area {
+            height: calc(100vh - 200px);
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+
+        .careers {
+            width: 100%;
+            height: 32em;
+            padding: 2%;
+            border-radius: 7px;
+            transition: all .3s;
+            background-image: linear-gradient(to bottom, #374050 0%, #5f6b7a 100%);
+            position: relative;
+            margin-bottom: 1.3em;
+            cursor: default;
+        }
+
+        .careers:hover {
+            box-shadow: none;
+        }
+
+        .careers-title {
+            width: 100%;
+            height: 12%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .careers-title h4 {
+
+            color: white;
+        }
+
+        .job-description {
+            text-align: left;
+        }
+
+        .careers-content {
+            width: 100%;
+            flex-direction: row;
+            display: flex;
+            justify-content: space-around;
+            padding-top: .6em;
+            padding-bottom: .6em;
+        }
+
+        .careers:hover .description {
+            border-color: white;
+        }
+
+        .description {
+            height: 10%;
+            padding: 10px 10px 10px 0;
+            color: white;
+            border-bottom: 1px solid black;
+            margin-bottom: 1em;
+            font-size: .8em;
+            transition: all .3s;
+        }
+
+        .careers-subtitle {
+            width: 28%;
+            height: fit-content;
+            text-align: left;
+            color: white;
+        }
+
+        .careers-value {
+            width: 69%;
+            height: fit-content;
+            text-align: left;
+            color: white;
+        }
+
+        .career-contact {
+            position: absolute;
+            left: 10px;
+            bottom: 10px;
+            color: whitesmoke;
+            width: calc(100%-25px);
+            padding: 5px;
+        }
+
+        @media screen and (max-width: 700px) {
+            .careers {
+                height: 36em;
+            }
+            .careers-subtitle {
+                width: 32%;
+            }
+            .careers-value {
+                width: 65%;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+
+            <div class="navbar-header">
+                <!-- Logo -->
+                <div class="navbar-brand">
+                    <a class="logo" href="index.html">
+                        <img src="./img/logo-alt.png" alt="logo">
+                    </a>
+                </div>
+                <!-- /Logo -->
+
+                <!-- Mobile toggle -->
+                <button class="navbar-toggle">
+                    <span></span>
+                </button>
+                <!-- /Mobile toggle -->
+            </div>
+
+            <!-- Navigation -->
+            <nav id="nav">
+                <ul class="main-menu nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="corporate-training.html">Corporate Training</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <!--                        <li><a href="https://student.wiztute.com/">Login</a></li>-->
+                </ul>
+            </nav>
+            <!-- /Navigation -->
+
+        </div>
+    </header>
+    <!-- /Header -->
+
+    <div id="careers-header" class="hero-area">
+
+        <!-- Backgound Image -->
+        <div class="bg-image bg-parallax overlay"
+            style="background-image:url(./img/typing.jpg); width: 100%; height: 100%"></div>
+        <!-- /Backgound Image -->
+        <div class="home-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 text-center">
+                        <h1 class="white-text">We're Hiring</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="careers" class="section">
+
+        <!-- container -->
+        <div class="container">
+
+            <!-- courses -->
+            <div id="careers-wrapper">
+
+                <!-- row -->
+                <div class="row">
+
+                    <div class="col-md-6 col-sm-12 col-xs-12 offset-md-3">
+                        <div class="careers">
+                            <div class="careers-title">
+                                <h4>DEVELOPER: REACT NATIVE</h4>
+                            </div>
+                            <div class="description">Requirement of Freelance Developers (Remote Work).</div>
+                            <div class="careers-content">
+                                <div class="careers-subtitle">Responsibilities:</div>
+                                <div class="careers-value"> Project based Work - milestones clearly defined, 20 hrs/week
+                                </div>
+                            </div>
+                            <div class="careers-content">
+                                <div class="careers-subtitle">Experience:</div>
+                                <div class="careers-value"> 0 - 4 years</div>
+                            </div>
+                            <div class="careers-content">
+                                <div class="careers-subtitle">Skills Needed:</div>
+                                <div class="careers-value"> HTML, CSS, JavaScript language and its nuances, including
+                                    ES6+ syntax, experience with REST APIs</div>
+                            </div>
+                            <div class="careers-content">
+                                <div class="careers-subtitle">No. of Positions:</div>
+                                <div class="careers-value"> 5</div>
+                            </div>
+                            <div class="careers-content">
+                                <div class="careers-subtitle">Compensation:</div>
+                                <div class="careers-value"> Open to discussion during interview</div>
+                            </div>
+                            <div class="career-contact">
+                                <i>Send your CV at <b><i>info@wiztute.com</i></b> with subject React Native
+                                    Developer</i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12 col-xs-12 offset-md-3">
+                        <div class="careers">
+                            <div class="careers-title">
+                                <h4>DEVELOPER: NODEJS</h4>
+                            </div>
+                            <div class="description">Requirement of Freelance Developers (Remote Work).</div>
+                            <div class="careers-content">
+                                <div class="careers-subtitle">Responsibilities:</div>
+                                <div class="careers-value">Project based Work - milestones clearly defined, 20 hrs/week
+                                </div>
+                            </div>
+                            <div class="careers-content">
+                                <div class="careers-subtitle">Experience:</div>
+                                <div class="careers-value">0 - 4 years</div>
+                            </div>
+                            <div class="careers-content">
+                                <div class="careers-subtitle">Skills Needed:</div>
+                                <div class="careers-value"> Node.js, Express.js, Restful services, JSON,No SQL, Mongo DB
+                                </div>
+                            </div>
+                            <div class="careers-content">
+                                <div class="careers-subtitle">No. of Positions:</div>
+                                <div class="careers-value"> 5</div>
+                            </div>
+                            <div class="careers-content">
+                                <div class="careers-subtitle">Compensation:</div>
+                                <div class="careers-value"> Open to discussion during interview</div>
+                            </div>
+                            <div class="career-contact">
+                                <i>Send your CV at <b><i>info@wiztute.com</i></b> with subject NodeJS
+                                    Developer</i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /row -->
+
+            </div>
+
+
+        </div>
+        <!-- container -->
+
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="section">
+
+        <!-- container -->
+        <div class="container">
+
+            <!-- row -->
+            <div class="row">
+
+                <!-- footer logo -->
+                <div class="col-md-6">
+                    <div class="footer-logo">
+                        <a class="logo" href="index.html">
+                            <img src="./img/logo.png" alt="logo">
+                        </a>
+                    </div>
+                </div>
+                <!-- footer logo -->
+
+                <!-- footer nav -->
+                <div class="col-md-6">
+                    <ul class="footer-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- /footer nav -->
+
+            </div>
+            <!-- /row -->
+
+            <!-- row -->
+            <div id="bottom-footer" class="row">
+
+                <!-- social -->
+                <div class="col-md-4 col-md-push-8">
+                    <ul class="footer-social">
+                        <li><a target="_blank" class="facebook" href="https://www.facebook.com/MakeIndiaLearnMore/"><i
+                                    class="fa fa-facebook"></i></a></li>
+                        <li><a target="_blank" class="google-plus" href="https://wiztute.com/"><i
+                                    class="fa fa-google-plus"></i></a></li>
+                        <li><a target="_blank" class="linkedin" href="https://www.linkedin.com/company/wiztute/"><i
+                                    class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <!-- /social -->
+
+                <!-- copyright -->
+                <div class="col-md-8 col-md-pull-4">
+                    <div class="footer-copyright">
+                        <span>&copy; Copyright 2019. All Rights Reserved. Wiztute Private Limited </span>
+                    </div>
+                </div>
+                <!-- /copyright -->
+
+            </div>
+            <!-- row -->
+
+        </div>
+        <!-- /container -->
+
+    </footer>
+    <!-- /Footer -->
+    <script>!function (e, t, a) { var c = e.head || e.getElementsByTagName("head")[0], n = e.createElement("script"); n.async = !0, n.defer = !0, n.type = "text/javascript", n.src = t + "/static/js/chat_widget.js?config=" + JSON.stringify(a), c.appendChild(n) }(document, "https://app.engati.com", { bot_key: "45a11ba07ab94025", welcome_msg: true, branding_key: "default", server: "https://app.engati.com", e: "p" });</script>
+    <!-- preloader -->
+    <div id='preloader'>
+        <div class='preloader'></div>
+    </div>
+    <!-- /preloader -->
+    <!-- jQuery Plugins -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script type="text/javascript" src="js/google-map.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/courses.js"></script>
+    <script>
+        $(".android_enroll").click(() => {
+            window.location.assign("https://www.instamojo.com/@Wiztute_eLearning/lf437db0ad1a94c1a9c5474f732a3099e/");
+        })
+        $(".python_enroll").click(() => {
+            window.location.assign("https://www.instamojo.com/@Wiztute_eLearning/l627f56c5829c4af0b7d9e5859f4a84b6/");
+        })
+    </script>
+</body>
+
+</html>
